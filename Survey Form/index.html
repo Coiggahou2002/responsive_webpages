@@ -1,0 +1,64 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body class="montserrat">
+        <header id="title-wrapper" class="white-text">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <div id="form-wrapper">
+            <form id="survey-form" class="white-text">
+                <label id="name-label" class="input-label" for="name">Name</label>
+                <input id="name" class="text-input" type="text" placeholder="Enter your name" name="name" required>
+                <label id="email-label" class="input-label"  for="email">Email</label>
+                <input id="email" class="text-input"  type="email" placeholder="Enter your email" name="email" required>
+                <label id="number-label" class="input-label"  for="name">Age(optioned)</label>
+                <input id="number" class="text-input"  type="number" min="1" max="100" placeholder="Age" name="age">
+                <label class="input-label"  for="name">Which option best describes your current role?</label>
+                <select id="dropdown" class="text-input"  id="select">
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">Other</option>
+                </select>
+                <label class="input-label"  for="would-recommend">Would you recommend freeCodeCamp to a friend?</label>
+                <label class="radio-input"><input  type="radio" name="recommend" value="1">Definitely</label>
+                <label class="radio-input"><input type="radio" name="recommend" value="2">Maybe</label>
+                <label class="radio-input"><input type="radio" name="recommend" value="3">Not sure</label>
+            
+                <label class="input-label" for="improve">What would you like to see improved? (Check all that apply)</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="1">Front-end Projects</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="2">Back-end Projects</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="3">Data Visualization</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="4">Challenges</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="5">Open Source Community</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="6">Gitter help rooms</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="7">Videos</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="8">City Meetups</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="9">Wiki</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="10">Forum</label>
+                <label class="radio-input"><input type="checkbox" name="improve" value="11">Additional Courses</label>
+                <label class="input-label" for="suggestion">Any comments or suggestions?</label>
+                <textarea id="suggestion-input" class="text-input" name="suggestion"></textarea>
+
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

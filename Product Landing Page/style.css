@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 16px 20px 16px 20px;
+    background-color:rgb(206, 206, 206);
+}
+#header-img {
+    max-height: 100%;
+    width: auto;
+}
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 40px 0 0;
+}
+.nav-link {
+    margin: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+#description {
+    margin: 150px auto 10px auto;
+}
+#description p{
+    font-size: 2em;
+    font-family: 'Signika Negative', sans-serif;
+}
+#form {
+    display: block;
+    margin: auto;
+}
+#email {
+    height: 40px;
+    width: 230px;
+    font-size: 1em;
+    font-family: 'Signika Negative', sans-serif;
+    display: block;
+    margin: 5px auto 10px auto;
+    padding: 0 8px 0 8px;
+}
+
+#advantage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto 50px auto;
+}
+.adv-item {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 30px 10px 10px;
+}
+.adv-content {
+    max-width: 700px;
+    margin: 0 20px 0 20px;
+}
+.adv-pic {
+    max-width: 100%;
+    height: auto;
+}
+.adv-title {
+    font-size: 1.6em;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 5px 0 10px 0;
+}
+.adv-text {
+    font-size: 0.9em;
+}
+#video {
+    max-width: 1200px;
+    height: auto;
+}
+#buy {
+    margin: 30px auto 30px auto;
+    display: flex;
+    flex-direction: row;
+}
+.buy-item {
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    margin: 6px 30px 6px 30px;
+    padding: 10px;
+}
+.buy-item-caption {
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    font-size: 1.2em;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.buy-item-price {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 34px 10px 14px 10px;
+}
+.buy-item-description {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.1em;
+    padding: 8px 15px 8px 15px;]
+    max-width: 50%;
+    text-decoration: center;
+}
+.buy-item-description p {
+    text-align: center;
+}
+.yellow-btn {
+    display: block;
+    margin: auto;
+    border: 0;
+    color: black;
+    background-color: rgb(240, 186, 38);
+    padding: 15px 20px 15px 20px;
+    margin-top: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1em;
+}
+#footer {
+    display: block;
+    max-width: 70%;
+}
+#PTC {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
